@@ -1,260 +1,275 @@
+```html
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Terms of Use - The Money Penny Show</title>
 
   <style>
-    body {
+    body{
+      margin:0;
+      padding:0;
       font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      margin: 0;
-      padding: 0;
-      color: #222;
-      line-height: 1.7;
+      background:#f4f7fb;
+      color:#222;
+      line-height:1.8;
     }
 
-    .container {
-      max-width: 900px;
-      margin: 40px auto;
-      background: #fff;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    .container{
+      max-width:1000px;
+      margin:auto;
+      padding:40px 20px;
     }
 
-    h1 {
-      color: #111;
-      margin-bottom: 10px;
+    .card{
+      background:white;
+      padding:40px;
+      border-radius:20px;
+      box-shadow:0 5px 25px rgba(0,0,0,0.08);
     }
 
-    h2 {
-      margin-top: 35px;
-      color: #222;
+    h1{
+      color:#16a34a;
+      text-align:center;
+      font-size:42px;
     }
 
-    p {
-      margin: 12px 0;
+    h2{
+      color:#111827;
+      margin-top:35px;
     }
 
-    ul {
-      padding-left: 20px;
+    p, li{
+      font-size:18px;
     }
 
-    li {
-      margin-bottom: 10px;
+    ul{
+      padding-left:25px;
     }
 
-    a {
-      color: #0066cc;
-      text-decoration: none;
+    a{
+      color:#16a34a;
+      text-decoration:none;
+      font-weight:bold;
     }
 
-    a:hover {
-      text-decoration: underline;
+    .logo{
+      display:block;
+      margin:auto;
+      width:140px;
+      margin-bottom:20px;
     }
 
-    .footer {
-      margin-top: 40px;
-      text-align: center;
-      color: #666;
-      font-size: 14px;
+    footer{
+      text-align:center;
+      margin-top:40px;
+      color:#666;
+      font-size:16px;
     }
 
-    @media (max-width: 768px) {
-      .container {
-        margin: 15px;
-        padding: 25px;
-      }
+    .home{
+      text-align:center;
+      margin-top:40px;
     }
   </style>
+
 </head>
 
 <body>
 
-  <div class="container">
+<div class="container">
 
-    <h1>Terms of Use</h1>
+<div class="card">
 
-    <p><strong>Effective Date:</strong> June 1, 2026</p>
+<img src="logo.png" class="logo" alt="Logo">
 
-    <p>
-      These Terms of Use ("Terms") govern your access to and use of mobile applications,
-      games, websites, and services published by <strong>The Money Penny Show</strong>
-      ("we", "our", or "us"), including but not limited to <strong>Gilli Danda</strong>
-      and future applications.
-    </p>
+<h1>Terms of Use</h1>
 
-    <p>
-      By downloading, installing, or using our apps, games, or website,
-      you agree to these Terms.
-    </p>
+<p><strong>Effective Date:</strong> June 1, 2026</p>
 
-    <h2>Use of Our Apps and Services</h2>
+<p>
+These Terms of Use ("Terms") govern your access to and use of mobile applications,
+games, websites, and services published by The Money Penny Show ("we", "our", or "us"),
+including but not limited to Gilli Danda and future applications.
+</p>
 
-    <p>
-      You agree to use our apps and services only for lawful purposes and in accordance with these Terms.
-    </p>
+<p>
+By downloading, installing, or using our apps, games, or website,
+you agree to these Terms.
+</p>
 
-    <p>You must not:</p>
+<h2>Use of Our Apps and Services</h2>
 
-    <ul>
-      <li>Use the apps in any way that violates applicable laws or regulations</li>
-      <li>Attempt to interfere with or disrupt app functionality</li>
-      <li>Reverse engineer, modify, or copy any part of the apps without permission</li>
-      <li>Use cheats, exploits, automation tools, or unauthorized third-party software</li>
-      <li>Engage in abusive, harmful, or fraudulent behavior</li>
-    </ul>
+<p>
+You agree to use our apps and services only for lawful purposes and in accordance with these Terms.
+</p>
 
-    <p>
-      We reserve the right to suspend or terminate access for users who violate these Terms.
-    </p>
+<p>You must not:</p>
 
-    <h2>Intellectual Property</h2>
+<ul>
+<li>Use the apps in any way that violates applicable laws or regulations</li>
+<li>Attempt to interfere with or disrupt app functionality</li>
+<li>Reverse engineer, modify, or copy any part of the apps without permission</li>
+<li>Use cheats, exploits, automation tools, or unauthorized third-party software</li>
+<li>Engage in abusive, harmful, or fraudulent behavior</li>
+</ul>
 
-    <p>
-      All content, graphics, logos, game designs, code, text, audio,
-      and other materials provided within our apps and website are owned by
-      or licensed to <strong>The Money Penny Show</strong> and are protected
-      by applicable intellectual property laws.
-    </p>
+<p>
+We reserve the right to suspend or terminate access for users who violate these Terms.
+</p>
 
-    <p>
-      You may not copy, reproduce, distribute, or create derivative works
-      without our written permission.
-    </p>
+<h2>Intellectual Property</h2>
 
-    <h2>Advertisements and Third-Party Services</h2>
+<p>
+All content, graphics, logos, game designs, code, text, audio,
+and other materials provided within our apps and website are owned by
+or licensed to The Money Penny Show and are protected by applicable intellectual property laws.
+</p>
 
-    <p>
-      Our apps may display advertisements and use third-party services such as:
-    </p>
+<p>
+You may not copy, reproduce, distribute, or create derivative works
+without our written permission.
+</p>
 
-    <ul>
-      <li>Google Play Services</li>
-      <li>Google AdMob</li>
-    </ul>
+<h2>Advertisements and Third-Party Services</h2>
 
-    <p>
-      These third-party services may have their own terms and privacy policies.
-      We are not responsible for the practices or content of third-party services.
-    </p>
+<p>
+Our apps may display advertisements and use third-party services such as:
+</p>
 
-    <h2>Purchases and Virtual Items</h2>
+<ul>
+<li>Google Play Services</li>
+<li>Google AdMob</li>
+</ul>
 
-    <p>
-      Some apps may offer optional in-app purchases, virtual items,
-      or premium content.
-    </p>
+<p>
+These third-party services may have their own terms and privacy policies.
+We are not responsible for the practices or content of third-party services.
+</p>
 
-    <p>
-      All purchases are processed through official platform providers such as Google Play
-      and are subject to their payment policies.
-    </p>
+<h2>Purchases and Virtual Items</h2>
 
-    <p>
-      Unless required by law, purchases are non-refundable.
-    </p>
+<p>
+Some apps may offer optional in-app purchases, virtual items,
+or premium content.
+</p>
 
-    <h2>Updates and Changes</h2>
+<p>
+All purchases are processed through official platform providers such as Google Play
+and are subject to their payment policies.
+</p>
 
-    <p>
-      We may update, modify, suspend, or discontinue any app,
-      feature, or service at any time without prior notice.
-    </p>
+<p>
+Unless required by law, purchases are non-refundable.
+</p>
 
-    <p>
-      We may also update these Terms periodically.
-      Continued use of our apps after updates means you accept the revised Terms.
-    </p>
+<h2>Updates and Changes</h2>
 
-    <h2>Privacy</h2>
+<p>
+We may update, modify, suspend, or discontinue any app,
+feature, or service at any time without prior notice.
+</p>
 
-    <p>
-      Your use of our apps is also governed by our Privacy Policy.
-    </p>
+<p>
+We may also update these Terms periodically.
+Continued use of our apps after updates means you accept the revised Terms.
+</p>
 
-    <h2>Disclaimer of Warranties</h2>
+<h2>Privacy</h2>
 
-    <p>
-      Our apps and services are provided on an "AS IS" and "AS AVAILABLE" basis
-      without warranties of any kind.
-    </p>
+<p>
+Your use of our apps is also governed by our Privacy Policy.
+</p>
 
-    <p>We do not guarantee that:</p>
+<h2>Disclaimer of Warranties</h2>
 
-    <ul>
-      <li>The apps will always be available or error-free</li>
-      <li>The apps will be uninterrupted or secure</li>
-      <li>Any defects will be corrected immediately</li>
-    </ul>
+<p>
+Our apps and services are provided on an "AS IS" and "AS AVAILABLE" basis
+without warranties of any kind.
+</p>
 
-    <p>
-      Your use of the apps is at your own risk.
-    </p>
+<p>We do not guarantee that:</p>
 
-    <h2>Limitation of Liability</h2>
+<ul>
+<li>The apps will always be available or error-free</li>
+<li>The apps will be uninterrupted or secure</li>
+<li>Any defects will be corrected immediately</li>
+</ul>
 
-    <p>
-      To the maximum extent permitted by law,
-      <strong>The Money Penny Show</strong> shall not be liable
-      for any indirect, incidental, special, consequential,
-      or punitive damages arising from your use of the apps or services.
-    </p>
+<p>
+Your use of the apps is at your own risk.
+</p>
 
-    <h2>Children's Use</h2>
+<h2>Limitation of Liability</h2>
 
-    <p>
-      Our apps are intended for general audiences unless explicitly stated otherwise.
-    </p>
+<p>
+To the maximum extent permitted by law,
+The Money Penny Show shall not be liable
+for any indirect, incidental, special, consequential,
+or punitive damages arising from your use of the apps or services.
+</p>
 
-    <p>
-      Children should use the apps only with parental or guardian supervision
-      where required by applicable laws.
-    </p>
+<h2>Children's Use</h2>
 
-    <h2>Termination</h2>
+<p>
+Our apps are intended for general audiences unless explicitly stated otherwise.
+</p>
 
-    <p>
-      We reserve the right to terminate or restrict access to our apps
-      or services at any time for violations of these Terms or for operational reasons.
-    </p>
+<p>
+Children should use the apps only with parental or guardian supervision
+where required by applicable laws.
+</p>
 
-    <h2>Governing Law</h2>
+<h2>Termination</h2>
 
-    <p>
-      These Terms shall be governed by and interpreted in accordance
-      with the laws applicable in your jurisdiction,
-      without regard to conflict of law principles.
-    </p>
+<p>
+We reserve the right to terminate or restrict access to our apps
+or services at any time for violations of these Terms or for operational reasons.
+</p>
 
-    <h2>Contact Us</h2>
+<h2>Governing Law</h2>
 
-    <p>If you have any questions regarding these Terms, you may contact us:</p>
+<p>
+These Terms shall be governed by and interpreted in accordance
+with the laws applicable in your jurisdiction,
+without regard to conflict of law principles.
+</p>
 
-    <p>
-      <strong>Developer Name:</strong><br>
-      The Money Penny Show
-    </p>
+<h2>Contact Us</h2>
 
-    <p>
-      <strong>Website:</strong><br>
-      <a href="https://themoneypennyshow.github.io/" target="_blank">
-        https://themoneypennyshow.github.io/
-      </a>
-    </p>
+<p>
+If you have any questions regarding these Terms, you may contact us:
+</p>
 
-    <p>
-      <strong>Email:</strong><br>
-      info.themoneypennyshow@gmail.com
-    </p>
+<p>
+<strong>Developer Name:</strong><br>
+The Money Penny Show
+</p>
 
-    <div class="footer">
-      © 2026 The Money Penny Show. All Rights Reserved.
-    </div>
+<p>
+<strong>Website:</strong><br>
+<a href="https://themoneypennyshow.github.io/">
+https://themoneypennyshow.github.io/
+</a>
+</p>
 
-  </div>
+<p>
+<strong>Email:</strong><br>
+<a href="mailto:info.themoneypennyshow@gmail.com">
+info.themoneypennyshow@gmail.com
+</a>
+</p>
+
+<div class="home">
+<a href="index.html">← Back to Home</a>
+</div>
+
+<footer>
+© 2026 The Money Penny Show. All rights reserved.
+</footer>
+
+</div>
+</div>
 
 </body>
 </html>
+```
