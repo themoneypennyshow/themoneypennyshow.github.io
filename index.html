@@ -1,507 +1,196 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>The Money Penny Show</title>
-
-  <link rel="icon" type="image/png" href="logo.png">
-
-  <style>
-
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #0f172a, #0b7a3b, #22c55e);
-      color: white;
-      text-align: center;
-    }
-
-    .hero {
-      padding: 60px 20px;
-    }
-
-    .logo {
-      width: 180px;
-      border-radius: 50%;
-      box-shadow: 0 0 30px rgba(255,255,255,0.4);
-    }
-
-    h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
-
-    .tagline {
-      font-size: 22px;
-      color: #dcfce7;
-    }
-
-    .section {
-      background: white;
-      color: #111827;
-      margin: 25px auto;
-      padding: 30px;
-      max-width: 900px;
-      border-radius: 25px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-    }
-
-    .cards {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .card {
-      background: #ecfdf5;
-      padding: 25px;
-      border-radius: 20px;
-      width: 220px;
-      font-size: 18px;
-    }
-
-    .emoji {
-      font-size: 45px;
-    }
-
-    a {
-      color: #16a34a;
-      font-weight: bold;
-    }
-
-    footer {
-      padding: 30px;
-      color: #dcfce7;
-    }
-
-    .policy-buttons {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin-top: 25px;
-    }
-
-    .policy-buttons a {
-      background: #16a34a;
-      color: white;
-      padding: 12px 22px;
-      border-radius: 12px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .policy-buttons a:hover {
-      background: #15803d;
-    }
-
-
-    /* ==================================
-       FUNTOOSH APP SECTION
-       ================================== */
-
-    .funtoosh-section {
-      background: #050505;
-      color: white;
-      border: 1px solid #27272a;
-    }
-
-    .funtoosh-logo {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 30px;
-      margin-bottom: 10px;
-      box-shadow: 0 0 30px rgba(217, 70, 239, 0.25);
-    }
-
-    .funtoosh-title {
-      font-size: 36px;
-      margin: 10px 0;
-    }
-
-    .funtoosh-subtitle {
-      color: #d4d4d8;
-      font-size: 18px;
-      line-height: 1.6;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-
-    .funtoosh-price {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 18px;
-      border-radius: 20px;
-      background: linear-gradient(90deg, #7c3aed, #ec4899);
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    .funtoosh-features {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin-top: 25px;
-    }
-
-    .funtoosh-feature {
-      background: #18181b;
-      color: white;
-      padding: 18px 20px;
-      border-radius: 15px;
-      min-width: 150px;
-      font-size: 17px;
-      line-height: 1.6;
-      border: 1px solid #27272a;
-    }
-
-    .funtoosh-note {
-      margin-top: 25px;
-      color: #a1a1aa;
-      font-size: 15px;
-      line-height: 1.6;
-    }
-
-
-    /* ==================================
-       MOBILE RESPONSIVE
-       ================================== */
-
-    @media (max-width: 600px) {
-
-      h1 {
-        font-size: 36px;
-      }
-
-      .tagline {
-        font-size: 18px;
-      }
-
-      .section {
-        margin: 20px 15px;
-        padding: 25px 18px;
-      }
-
-      .funtoosh-title {
-        font-size: 32px;
-      }
-
-      .funtoosh-logo {
-        width: 130px;
-        height: 130px;
-      }
-
-      .funtoosh-feature {
-        width: 100%;
-      }
-
-    }
-
-  </style>
-
-</head>
-
-
-<body>
-
-
-  <!-- ==================================
-       MAIN DEVELOPER HEADER
-       ================================== -->
-
-  <div class="hero">
-
-    <img
-      src="logo.png"
-      class="logo"
-      alt="The Money Penny Show Logo"
-    >
-
-    <h1>The Money Penny Show</h1>
-
-    <p class="tagline">
-      Android developer building apps and games for users all across the world.
-    </p>
-
-  </div>
-
-
-
-  <!-- ==================================
-       LOVE FOR ANDROID
-       ================================== -->
-
-  <div class="section">
-
-    <h2>💚 My Love for Android</h2>
-
-    <p>
-      I love Android because it gives everyone the power to create,
-      learn, build, and share ideas with the world.
-      I have never used iOS or Mac, but Android has always inspired me
-      to explore technology and app development.
-    </p>
-
-  </div>
-
-
-
-  <!-- ==================================
-       DEVELOPER JOURNEY
-       ================================== -->
-
-  <div class="section">
-
-    <h2>🚀 My Developer Journey</h2>
-
-    <p>
-      I am learning coding and trying my best to become a better
-      Android developer.
-      This is my nice first try to build apps, games, and digital
-      experiences for users worldwide.
-    </p>
-
-  </div>
-
-
-
-  <!-- ==================================
-       WHAT I WANT TO BUILD
-       ================================== -->
-
-  <div class="section">
-
-    <h2>What I Want To Build</h2>
-
-    <div class="cards">
-
-      <div class="card">
-
-        <div class="emoji">📱</div>
-
-        Android Apps
-
-      </div>
-
-
-      <div class="card">
-
-        <div class="emoji">🎮</div>
-
-        Mobile Games
-
-      </div>
-
-
-      <div class="card">
-
-        <div class="emoji">💡</div>
-
-        Creative Ideas
-
-      </div>
-
-
-      <div class="card">
-
-        <div class="emoji">🌍</div>
-
-        Apps for Everyone
-
-      </div>
-
-    </div>
-
-  </div>
-
-
-
-  <!-- ==================================
-       FUNTOOSH
-       ================================== -->
-
-  <div class="section funtoosh-section">
-
-    <img
-      src="funtoosh-logo.png"
-      class="funtoosh-logo"
-      alt="Funtoosh App Logo"
-    >
-
-    <h2 class="funtoosh-title">
-      Funtoosh
-    </h2>
-
-
-    <p class="funtoosh-subtitle">
-
-      Funtoosh is an Android social communication app designed
-      for adults who want to connect with creators through
-      friendly conversations and social interaction.
-
-    </p>
-
-
-    <p
-      class="funtoosh-subtitle"
-      style="margin-top: 15px;"
-    >
-
-      Users can explore creator profiles and choose creators
-      they would like to interact with through chat,
-      voice calls, and video calls.
-
-    </p>
-
-
-    <div class="funtoosh-price">
-
-      ₹249 / month
-
-    </div>
-
-
-    <div class="funtoosh-features">
-
-
-      <div class="funtoosh-feature">
-
-        💬
-        <br>
-
-        Chat with Creators
-
-      </div>
-
-
-      <div class="funtoosh-feature">
-
-        📞
-        <br>
-
-        Voice Calls
-
-      </div>
-
-
-      <div class="funtoosh-feature">
-
-        🎥
-        <br>
-
-        Video Calls
-
-      </div>
-
-
-      <div class="funtoosh-feature">
-
-        👤
-        <br>
-
-        Creator Profiles
-
-      </div>
-
-
-    </div>
-
-
-    <p
-      class="funtoosh-subtitle"
-      style="margin-top: 25px;"
-    >
-
-      Premium communication features are available through
-      a ₹249 monthly subscription purchased through Google Play.
-
-    </p>
-
-
-    <p class="funtoosh-note">
-
-      Funtoosh is intended for users aged 18 years and above.
-      Users are expected to communicate respectfully and follow
-      the Funtoosh Terms of Use and safety standards.
-
-    </p>
-
-
-  </div>
-
-
-
-  <!-- ==================================
-       ABOUT ME
-       ================================== -->
-
-  <div class="section">
-
-    <h2>About Me</h2>
-
-    <p>
-
-      I am an Android lover and a beginner developer with a big dream.
-
-      I want to learn coding step by step and create useful,
-      fun, and beautiful apps for people everywhere.
-
-    </p>
-
-
-    <!-- ==================================
-         LEGAL / POLICY LINKS
-         ================================== -->
-
-    <div class="policy-buttons">
-
-
-      <a href="privacy-policy.html">
-
-        Privacy Policy
-
-      </a>
-
-
-      <a href="terms-of-use.html">
-
-        Terms of Use
-
-      </a>
-
-
-      <a href="child-safety.html">
-
-        Child Safety
-
-      </a>
-
-
-    </div>
-
-
-  </div>
-
-
-
-  <!-- ==================================
-       FOOTER
-       ================================== -->
-
-  <footer>
-
-    © The Money Penny Show. All rights reserved.
-
-  </footer>
-
-
-</body>
-
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>The Money Penny Show</title> 
+  <link rel="icon" type="image/png" href="logo.png"> 
+ 
+  <style> 
+    body { 
+      margin: 0; 
+      font-family: Arial, sans-serif; 
+      background: linear-gradient(135deg, #0f172a, #0b7a3b, #22c55e); 
+      color: white; 
+      text-align: center; 
+    } 
+ 
+    .hero { 
+      padding: 60px 20px; 
+    } 
+ 
+    .logo { 
+      width: 180px; 
+      border-radius: 50%; 
+      box-shadow: 0 0 30px rgba(255,255,255,0.4); 
+    } 
+ 
+    h1 { 
+      font-size: 48px; 
+      margin-bottom: 10px; 
+    } 
+ 
+    .tagline { 
+      font-size: 22px; 
+      color: #dcfce7; 
+    } 
+ 
+    .section { 
+      background: white; 
+      color: #111827; 
+      margin: 25px auto; 
+      padding: 30px; 
+      max-width: 900px; 
+      border-radius: 25px; 
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25); 
+    } 
+ 
+    .cards { 
+      display: flex; 
+      justify-content: center; 
+      flex-wrap: wrap; 
+      gap: 20px; 
+    } 
+ 
+    .card { 
+      background: #ecfdf5; 
+      padding: 25px; 
+      border-radius: 20px; 
+      width: 220px; 
+      font-size: 18px; 
+    } 
+ 
+    .emoji { 
+      font-size: 45px; 
+    } 
+ 
+    a { 
+      color: #16a34a; 
+      font-weight: bold; 
+    } 
+ 
+    footer { 
+      padding: 30px; 
+      color: #dcfce7; 
+    } 
+ 
+    .policy-buttons { 
+      display: flex; 
+      justify-content: center; 
+      gap: 20px; 
+      flex-wrap: wrap; 
+      margin-top: 25px; 
+    } 
+ 
+    .policy-buttons a { 
+      background: #16a34a; 
+      color: white; 
+      padding: 12px 22px; 
+      border-radius: 12px; 
+      text-decoration: none; 
+      transition: 0.3s; 
+    } 
+ 
+    .policy-buttons a:hover { 
+      background: #15803d; 
+    } 
+ 
+  </style> 
+ 
+</head> 
+ 
+<body> 
+ 
+  <div class="hero"> 
+    <img src="logo.png" class="logo" alt="The Money Penny Show Logo"> 
+ 
+    <h1>The Money Penny Show</h1> 
+ 
+    <p class="tagline"> 
+      Android developer building apps and games for users all across the world. 
+    </p> 
+  </div> 
+ 
+  <div class="section"> 
+ 
+    <h2>💚 My Love for Android</h2> 
+ 
+    <p> 
+      I love Android because it gives everyone the power to create, learn, build, and share ideas with the world. 
+      I have never used iOS or Mac, but Android has always inspired me to explore technology and app development. 
+    </p> 
+ 
+  </div> 
+ 
+  <div class="section"> 
+ 
+    <h2>🚀 My Developer Journey</h2> 
+ 
+    <p> 
+      I am learning coding and trying my best to become a better Android developer. 
+      This is my nice first try to build apps, games, and digital experiences for users worldwide. 
+    </p> 
+ 
+  </div> 
+ 
+  <div class="section"> 
+ 
+    <h2>What I Want To Build</h2> 
+ 
+    <div class="cards"> 
+ 
+      <div class="card"> 
+        <div class="emoji">📱</div> 
+        Android Apps 
+      </div> 
+ 
+      <div class="card"> 
+        <div class="emoji">🎮</div> 
+        Mobile Games 
+      </div> 
+ 
+      <div class="card"> 
+        <div class="emoji">💡</div> 
+        Creative Ideas 
+      </div> 
+ 
+      <div class="card"> 
+        <div class="emoji">🌍</div> 
+        Apps for Everyone 
+      </div> 
+ 
+    </div> 
+ 
+  </div> 
+ 
+  <div class="section"> 
+ 
+    <h2>About Me</h2> 
+ 
+    <p> 
+      I am an Android lover and a beginner developer with a big dream. 
+      I want to learn coding step by step and create useful, fun, and beautiful apps for people everywhere. 
+    </p> 
+ 
+    <div class="policy-buttons"> 
+ 
+      <a href="privacy-policy.html"> 
+        Privacy Policy 
+      </a> 
+ 
+      <a href="terms-of-use.html"> 
+        Terms of Use 
+      </a> 
+ 
+      <a href="child-safety.html"> 
+        child safety 
+      </a> 
+       
+    </div> 
+ 
+  </div> 
+ 
+  <footer> 
+    © The Money Penny Show. All rights reserved. 
+  </footer> 
+ 
+</body> 
 </html>
